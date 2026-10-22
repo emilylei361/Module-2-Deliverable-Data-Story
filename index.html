@@ -5,25 +5,26 @@
 </head>
 <body>
     <header class="story-header">
-        <p class="eyebrow">Data Story</p>
-        <h1>Replace with a specific, evidence-based title</h1>
-        <p class="lede">Write a 75-150 word introduction that establishes the question or claim and why it matters.</p>
+        <p class="eyebrow">Data Story - GIT337 Module 3</p>
+        <h1>Statistical Perspective Regarding the Disparity in Anti-Black/African American Motivated Crime</h1>
+        <p class="lede">Black/African Americans in America have historically faced disproportionate levels of police brutality and crime since the 1700s. Despite only accounting for 4.3% of Arizona's population (azmag.gov), disparities concerning rates of anti-Black crime are significant. After collecting/analyzing data from the Maricopa Association of Governments, Phoenix Police Department, and the City of Phoenix, it can be established that there is a statistically significant gap in how other ethnicities fare in the context of hate crime and demographic data.</p>
     </header>
     <main>
         <section id="story-frame">
             <h2>D1 · Story Frame</h2>
-            <p>Develop the story context and include a concise methods/source note.</p>
+            <p>Understanding how systemic racism has affected American society in terms of crime and police brutality has been a topic of interest for me for quite some time. It is a set of policies and institutional structures that historically amd currently affect housing, criminal justice, education, healthcare, and many other categories. While critics debate whether this insitutional bias even exists or if these trends are because of socioeconomic class/cultural factors, this page will simply compile data from multiple government sources. The intent of this webpage is to consolidate and bring together multiple data sources to crate a clearer image in regards to Arizona crime vs. demographic statistics.</p>
+            <footer>(Since the Arizona data scope can become extremely large and complicated, I've decided to focus on primarily the Phoenix area with a variety of data pulled from 2018 to 2025.)</footer>
         </section>
         <section id="figures">
             <h2>D2 · Editorial Figures</h2>
             <div class="story-grid">
                 <figure>
-                    <img src="placeholder.svg" alt="Replace with a contextual alternative" width="800" height="450">
-                    <figcaption>Replace with a visible caption and source/credit.</figcaption>
+                    <img src="map-of-ethnicity%.JPG" alt="Map displaying Black/African American demographic distribution in the Phoenix area" width="800" height="450">
+                    <figcaption>Figure 1. Map of Black/African American demographic distribution in Phoenix between 2020-2024. Sourced from <a href="https://geo.azmag.gov/maps/azdemographics/" target="_blank">Interactive Maps</a> from the Maricopa Association of Governments.</figcaption>
                 </figure>
-                <figure>
-                    <img src="placeholder.svg" alt="Replace with a contextual alternative" width="800" height="450">
-                    <figcaption>Replace with a visible caption and source/credit.</figcaption>
+                <figure class="figure-wide">
+                    <div class="scroll-x"><img src="race-and-ethnicity-by-region.JPG" alt="Bar chart comparing racial and ethnic composition of Phoenix, Phoenix MSA, and the United States." width="2214" height="792"></div>
+                    <figcaption>Figure 2. * ("Native Hawaiian and Pacific Islander" is included in "Multiple/Other"). Bar chart showing ethnicity demographic percentage distribution between Phoenix, Phoenix MSA, and the United States. Sourced from <a href="https://geo.azmag.gov/maps/azdemographics/" target="_blank">MAG Community Data Explorer</a> from the Maricopa Association of Governments.</figcaption>
                 </figure>
             </div>
         </section>
@@ -31,38 +32,173 @@
             <h2>D3 · Accessible Data Table</h2>
             <div class="table-region" role="region" aria-label="Replace with a specific table label" tabindex="0">
                 <table>
-                    <caption>Replace with an accurate table caption</caption>
+                    <caption>Crime and demographic population statistics by year (for the Phoenix, AZ area)</caption>
                     <thead>
                         <tr>
-                            <th scope="col">Category</th>
-                            <th scope="col">Value A</th>
-                            <th scope="col">Value B</th>
-                            <th scope="col">Value C</th>
+                            <th id="first-child" scope="col">Year</th>
+                            <th scope="col">% of Anti-Indigenous Crimes</th>
+                            <th scope="col">% of Anti-Hispanic/Latino Crimes</th>
+                            <th scope="col">% of Anti-Asian Crimes</th>
+                            <th scope="col">% of Anti-Black/African American Crimes </th>
+                            <th scope="col">% of Anti-White Crimes</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row">Replace</th>
-                            <td>—</td>
-                            <td>—</td>
-                            <td>—</td>
+                            <th scope="row">2018</th>
+                            <td>N/A</td>
+                            <td>9.34%</td>
+                            <td>0.93%</td>
+                            <td>29.9%</td>
+                            <td>8.41%</td>
                         </tr>
                         <tr>
-                            <th scope="row">Replace</th>
-                            <td>—</td>
-                            <td>—</td>
-                            <td>—</td>
+                            <th scope="row">2019</th>
+                            <td>1.28%</td>
+                            <td>12.8%</td>
+                            <td>1.28%</td>
+                            <td>50.64%</td>
+                            <td>6.41%</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2020</th>
+                            <td>2.45%</td>
+                            <td>11.76%</td>
+                            <td>1.47%</td>
+                            <td>46.08%</td>
+                            <td>10.29%</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2021</th>
+                            <td>1.42%</td>
+                            <td>8.57%</td>
+                            <td>2.14%</td>
+                            <td>49.29%</td>
+                            <td>8.57%</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2022</th>
+                            <td>0.94%</td>
+                            <td>19.81%</td>
+                            <td>N/A</td>
+                            <td>34.90%</td>
+                            <td>8.49%</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2023</th>
+                            <td>1.79%</td>
+                            <td>13.39%</td>
+                            <td>3.57%</td>
+                            <td>42.86%</td>
+                            <td>6.25%</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2024</th>
+                            <td>2.75%</td>
+                            <td>12.84%</td>
+                            <td>1.83%</td>
+                            <td>40.37%</td>
+                            <td>9.17%</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2025</th>
+                            <td>2.23%</td>
+                            <td>27.61%</td>
+                            <td>1.49%</td>
+                            <td>44.03%</td>
+                            <td>5.22%</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <p class="source-note">Add the data source and any transformation note.</p>
+            <p class="source-note">Sourced from City of Phoenix Bias Crimes Statistics PDFs <a href="https://www.phoenix.gov/administration/departments/police/crime-stats-data/crime-stats-maps.html" target="_blank">(phoenix.gov)</a></p>
         </section>
         <section id="vector-story">
-            <h2>D4 · Responsive SVG</h2>
-            <svg class="story-graphic" viewBox="0 0 800 400" role="img" aria-labelledby="graphic-title graphic-desc">
+            <h2>D4 · Race/Ethnicity* of Individuals Involved in Police Incidents</h2>
+            <svg version="1.1" class="story-graphic"  xmlns="http://www.w3.org/2000/svg" viewBox="-30 0 800 400" aria-hidden="false">
+                <desc aria-hidden="true">Created with Highcharts 11.4.6</desc>
+                <defs aria-hidden="true">
+                    <filter id="highcharts-drop-shadow-5">
+                        <feDropShadow dx="1" dy="1" flood-color="#000000" flood-opacity="0.75" stdDeviation="2.5"></feDropShadow>
+                    </filter>
+                    <clipPath id="highcharts-hfcvpex-184-">
+                        <rect x="0" y="0" width="498" height="265" fill="none"></rect>
+                    </clipPath>
+                </defs>
+                <rect fill="#ffffff" class="highcharts-background" filter="none" x="0" y="0" width="580" height="400" rx="4" ry="4" aria-hidden="true"></rect>
+                <rect fill="none" class="highcharts-plot-background" x="72" y="30" width="498" height="265" filter="none" aria-hidden="true"></rect>
+                <g class="highcharts-pane-group" data-z-index="0" aria-hidden="true"></g>
+                <g class="highcharts-grid highcharts-xaxis-grid" data-z-index="1" aria-hidden="true">
+                    <path fill="none" stroke="#e6e6e6" stroke-width="0" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 134.5 30 L 134.5 295" opacity="1" style="stroke: rgb(255, 255, 255); stroke-width: 5;"></path>
+                    <path fill="none" stroke="#e6e6e6" stroke-width="0" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 258.5 30 L 258.5 295" opacity="1" style="stroke: rgb(255, 255, 255); stroke-width: 5;"></path>
+                    <path fill="none" stroke="#e6e6e6" stroke-width="0" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 383.5 30 L 383.5 295" opacity="1" style="stroke: rgb(255, 255, 255); stroke-width: 5;"></path>
+                    <path fill="none" stroke="#e6e6e6" stroke-width="0" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 507.5 30 L 507.5 295" opacity="1" style="stroke: rgb(255, 255, 255); stroke-width: 5;"></path>
+                    <path fill="none" stroke="#e6e6e6" stroke-width="0" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 196.5 30 L 196.5 295" opacity="1"></path>
+                    <path fill="none" stroke="#e6e6e6" stroke-width="0" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 321.5 30 L 321.5 295" opacity="1"></path>
+                    <path fill="none" stroke="#e6e6e6" stroke-width="0" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 445.5 30 L 445.5 295" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="0" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 570.5 30 L 570.5 295" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="0" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 72.5 30 L 72.5 295" opacity="1"></path>
+                </g>
+                <rect fill="none" class="highcharts-plot-border" data-z-index="1" stroke="#cccccc" stroke-width="0" x="72" y="30" width="498" height="265" aria-hidden="true"></rect>
+                    <g class="highcharts-grid highcharts-yaxis-grid" data-z-index="1" aria-hidden="true">
+                        <path fill="none" stroke="#e6e6e6" stroke-width="1" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 72 295.5 L 570 295.5" opacity="1" style="stroke: rgb(255, 255, 255); stroke-width: 5;"></path>
+                        <path fill="none" stroke="#e6e6e6" stroke-width="1" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 72 180.5 L 570 180.5" opacity="1" style="stroke: rgb(255, 255, 255); stroke-width: 5;"></path>
+                        <path fill="none" stroke="#e6e6e6" stroke-width="1" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 72 65.5 L 570 65.5" opacity="1" style="stroke: rgb(255, 255, 255); stroke-width: 5;"></path>
+                        <path fill="none" stroke="#e6e6e6" stroke-width="1" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 72 237.5 L 570 237.5" opacity="1" style="stroke: rgb(255, 255, 255); stroke-width: 5;"></path>
+                        <path fill="none" stroke="#e6e6e6" stroke-width="1" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 72 122.5 L 570 122.5" opacity="1" style="stroke: rgb(255, 255, 255); stroke-width: 5;"></path>
+                    </g>
+                    <g class="highcharts-axis highcharts-xaxis" data-z-index="2" aria-hidden="true">
+                        <text x="321" data-z-index="7" text-anchor="middle" transform="translate(0,0)" class="highcharts-axis-title" style="color: rgb(102, 102, 102); font-size: 0.8em; fill: rgb(102, 102, 102);" y="345">Year</text>
+                        <path fill="none" class="highcharts-axis-line" stroke="#333333" stroke-width="1" data-z-index="7" d="M 72 295.5 L 570 295.5" style="stroke: rgb(255, 255, 255); stroke-width: 5;"></path>
+                    </g>
+                    <g class="highcharts-axis highcharts-yaxis" data-z-index="2" aria-hidden="true">
+                        <text x="20.21875" data-z-index="7" text-anchor="middle" transform="translate(0,0) rotate(270 24.21875 162.5)" class="highcharts-axis-title" style="color: rgb(102, 102, 102); font-size: 0.8em; fill: rgb(102, 102, 102);" y="150.5">Count</text> 
+                        <path fill="none" class="highcharts-axis-line" stroke="#333333" stroke-width="0" data-z-index="7" d="M 72 30 L 72 295" style="stroke: rgb(255, 255, 255); stroke-width: 5;"></path>
+                    </g>
+                    <g class="highcharts-series-group" data-z-index="3" filter="none" aria-hidden="false"><g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-tracker" data-z-index="0.1" opacity="1" transform="translate(72,30) scale(1 1)" clip-path="url(#highcharts-hfcvpex-184-)" style="cursor: default; outline: none;" aria-hidden="false" role="region" tabindex="-1" aria-label="Black or African American, bar series 1 of 4 with 8 bars."><path fill="#e67530" d="M 15 13 L 47 13 A 3 3 0 0 1 50 16 L 50 63 A 0 0 0 0 1 50 63 L 12 63 A 0 0 0 0 1 12 63 L 12 16 A 3 3 0 0 1 15 13 Z" stroke="#ffffff" stroke-width="0" opacity="1" filter="none" class="highcharts-point" tabindex="-1" role="img" aria-label="2018, 8,698. Black or African American." style="outline: none; stroke: rgb(255, 255, 255); stroke-width: 5;"></path><path fill="#e67530" d="M 78 13 L 109 13 A 3 3 0 0 1 112 16 L 112 63 A 0 0 0 0 1 112 63 L 75 63 A 0 0 0 0 1 75 63 L 75 16 A 3 3 0 0 1 78 13 Z" stroke="#ffffff" stroke-width="0" opacity="1" filter="none" class="highcharts-point" tabindex="-1" role="img" aria-label="2019, 8,779. Black or African American." style="outline: none; stroke: rgb(255, 255, 255); stroke-width: 5;"></path><path fill="#e67530" d="M 140 62 L 171 62 A 3 3 0 0 1 174 65 L 174 105 A 0 0 0 0 1 174 105 L 137 105 A 0 0 0 0 1 137 105 L 137 65 A 3 3 0 0 1 140 62 Z" stroke="#ffffff" stroke-width="0" opacity="1" filter="none" class="highcharts-point" tabindex="-1" role="img" aria-label="2020, 7,323. Black or African American." style="outline: none; stroke: rgb(255, 255, 255); stroke-width: 5;"></path><path fill="#e67530" d="M 202 100 L 234 100 A 3 3 0 0 1 237 103 L 237 134 A 0 0 0 0 1 237 134 L 199 134 A 0 0 0 0 1 199 134 L 199 103 A 3 3 0 0 1 202 100 Z" stroke="#ffffff" stroke-width="0" opacity="1" filter="none" class="highcharts-point" tabindex="-1" role="img" aria-label="2021, 6,033. Black or African American." style="outline: none; stroke: rgb(255, 255, 255); stroke-width: 5;"></path><path fill="#e67530" d="M 264 127 L 296 127 A 3 3 0 0 1 299 130 L 299 159 A 0 0 0 0 1 299 159 L 261 159 A 0 0 0 0 1 261 159 L 261 130 A 3 3 0 0 1 264 127 Z" stroke="#ffffff" stroke-width="0" opacity="1" filter="none" class="highcharts-point" tabindex="-1" role="img" aria-label="2022, 5,463. Black or African American." style="outline: none; stroke: rgb(255, 255, 255); stroke-width: 5;"></path><path fill="#e67530" d="M 327 114 L 358 114 A 3 3 0 0 1 361 117 L 361 149 A 0 0 0 0 1 361 149 L 324 149 A 0 0 0 0 1 324 149 L 324 117 A 3 3 0 0 1 327 114 Z" stroke="#ffffff" stroke-width="0" opacity="1" filter="none" class="highcharts-point" tabindex="-1" role="img" aria-label="2023, 6,031. Black or African American." style="outline: none; stroke: rgb(255, 255, 255); stroke-width: 5;"></path><path fill="#e67530" d="M 389 111 L 420 111 A 3 3 0 0 1 423 114 L 423 146 A 0 0 0 0 1 423 146 L 386 146 A 0 0 0 0 1 386 146 L 386 114 A 3 3 0 0 1 389 111 Z" stroke="#ffffff" stroke-width="0" opacity="1" filter="none" class="highcharts-point" tabindex="-1" role="img" aria-label="2024, 6,136. Black or African American." style="outline: none; stroke: rgb(255, 255, 255); stroke-width: 5;"></path><path fill="#e67530" d="M 451 99 L 483 99 A 3 3 0 0 1 486 102 L 486 139 A 0 0 0 0 1 486 139 L 448 139 A 0 0 0 0 1 448 139 L 448 102 A 3 3 0 0 1 451 99 Z" stroke="#ffffff" stroke-width="0" opacity="1" filter="none" class="highcharts-point" tabindex="-1" role="img" aria-label="2025, 7,048. Black or African American." style="outline: none; stroke: rgb(255, 255, 255); stroke-width: 5;"></path></g><g class="highcharts-markers highcharts-series-0 highcharts-column-series" data-z-index="0.1" opacity="1" transform="translate(72,30) scale(1 1)" clip-path="none" aria-hidden="true"></g>
+                    <g class="highcharts-series highcharts-series-1 highcharts-column-series highcharts-tracker" data-z-index="0.1" opacity="1" transform="translate(72,30) scale(1 1)" clip-path="url(#highcharts-hfcvpex-184-)" style="cursor: default; outline: none;" aria-hidden="false" role="region" tabindex="-1" aria-label="Hispanic, bar series 2 of 4 with 8 bars.">
+                        <path fill="#38619e" d="M 12 63 L 50 63 A 0 0 0 0 1 50 63 L 50 149 A 0 0 0 0 1 50 149 L 12 149 A 0 0 0 0 1 12 149 L 12 63 A 0 0 0 0 1 12 63 Z" stroke="#ffffff" stroke-width="0" opacity="1" filter="none" class="highcharts-point" tabindex="-1" role="img" aria-label="2018, 14,996. Hispanic." style="outline: none; stroke: rgb(255, 255, 255); stroke-width: 5;"></path>
+                        <path fill="#38619e" d="M 75 63 L 112 63 A 0 0 0 0 1 112 63 L 112 154 A 0 0 0 0 1 112 154 L 75 154 A 0 0 0 0 1 75 154 L 75 63 A 0 0 0 0 1 75 63 Z" stroke="#ffffff" stroke-width="0" opacity="1" filter="none" class="highcharts-point" tabindex="-1" role="img" aria-label="2019, 15,750. Hispanic." style="outline: none; stroke: rgb(255, 255, 255); stroke-width: 5;"></path>
+                        <path fill="#38619e" d="M 137 105 L 174 105 A 0 0 0 0 1 174 105 L 174 182 A 0 0 0 0 1 174 182 L 137 182 A 0 0 0 0 1 137 182 L 137 105 A 0 0 0 0 1 137 105 Z" stroke="#ffffff" stroke-width="0" opacity="1" filter="none" class="highcharts-point" tabindex="-1" role="img" aria-label="2020, 13,541. Hispanic." style="outline: none; stroke: rgb(255, 255, 255); stroke-width: 5;"></path>
+                        <path fill="#38619e" d="M 199 134 L 237 134 A 0 0 0 0 1 237 134 L 237 197 A 0 0 0 0 1 237 197 L 199 197 A 0 0 0 0 1 199 197 L 199 134 A 0 0 0 0 1 199 134 Z" stroke="#ffffff" stroke-width="0" opacity="1" filter="none" class="highcharts-point" tabindex="-1" role="img" aria-label="2021, 10,836. Hispanic." style="outline: none; stroke: rgb(255, 255, 255); stroke-width: 5;"></path>
+                        <path fill="#38619e" d="M 261 159 L 299 159 A 0 0 0 0 1 299 159 L 299 211 A 0 0 0 0 1 299 211 L 261 211 A 0 0 0 0 1 261 211 L 261 159 A 0 0 0 0 1 261 159 Z" stroke="#ffffff" stroke-width="0" opacity="1" filter="none" class="highcharts-point" tabindex="-1" role="img" aria-label="2022, 9,056. Hispanic." style="outline: none; stroke: rgb(255, 255, 255); stroke-width: 5;"></path>
+                        <path fill="#38619e" d="M 324 149 L 361 149 A 0 0 0 0 1 361 149 L 361 205 A 0 0 0 0 1 361 205 L 324 205 A 0 0 0 0 1 324 205 L 324 149 A 0 0 0 0 1 324 149 Z" stroke="#ffffff" stroke-width="0" opacity="1" filter="none" class="highcharts-point" tabindex="-1" role="img" aria-label="2023, 9,790. Hispanic." style="outline: none; stroke: rgb(255, 255, 255); stroke-width: 5;"></path>
+                        <path fill="#38619e" d="M 386 146 L 423 146 A 0 0 0 0 1 423 146 L 423 205 A 0 0 0 0 1 423 205 L 386 205 A 0 0 0 0 1 386 205 L 386 146 A 0 0 0 0 1 386 146 Z" stroke="#ffffff" stroke-width="0" opacity="1" filter="none" class="highcharts-point" tabindex="-1" role="img" aria-label="2024, 10,324. Hispanic." style="outline: none; stroke: rgb(255, 255, 255); stroke-width: 5;"></path>
+                        <path fill="#38619e" d="M 448 139 L 486 139 A 0 0 0 0 1 486 139 L 486 183 A 0 0 0 0 1 486 183 L 448 183 A 0 0 0 0 1 448 183 L 448 139 A 0 0 0 0 1 448 139 Z" stroke="#ffffff" stroke-width="0" opacity="1" filter="none" class="highcharts-point" tabindex="-1" role="img" aria-label="2025, 7,565. Hispanic." style="outline: none; stroke: rgb(255, 255, 255); stroke-width: 5;"></path>
+                    </g>
+                    <g class="highcharts-markers highcharts-series-1 highcharts-column-series" data-z-index="0.1" opacity="1" transform="translate(72,30) scale(1 1)" clip-path="none" aria-hidden="true"></g><g class="highcharts-series highcharts-series-2 highcharts-column-series highcharts-tracker" data-z-index="0.1" opacity="1" transform="translate(72,30) scale(1 1)" clip-path="url(#highcharts-hfcvpex-184-)" style="cursor: default; outline: none;" aria-hidden="false" role="region" tabindex="-1" aria-label="Other, bar series 3 of 4 with 8 bars."><path fill="#45423f" d="M 12 149 L 50 149 A 0 0 0 0 1 50 149 L 50 168 A 0 0 0 0 1 50 168 L 12 168 A 0 0 0 0 1 12 168 L 12 149 A 0 0 0 0 1 12 149 Z" stroke="#ffffff" stroke-width="0" opacity="1" filter="none" class="highcharts-point" tabindex="-1" role="img" aria-label="2018, 3,322. Other." style="outline: none; stroke: rgb(255, 255, 255); stroke-width: 5;"></path><path fill="#45423f" d="M 75 154 L 112 154 A 0 0 0 0 1 112 154 L 112 172 A 0 0 0 0 1 112 172 L 75 172 A 0 0 0 0 1 75 172 L 75 154 A 0 0 0 0 1 75 154 Z" stroke="#ffffff" stroke-width="0" opacity="1" filter="none" class="highcharts-point" tabindex="-1" role="img" aria-label="2019, 3,143. Other." style="outline: none; stroke: rgb(255, 255, 255); stroke-width: 5;"></path><path fill="#45423f" d="M 137 182 L 174 182 A 0 0 0 0 1 174 182 L 174 196 A 0 0 0 0 1 174 196 L 137 196 A 0 0 0 0 1 137 196 L 137 182 A 0 0 0 0 1 137 182 Z" stroke="#ffffff" stroke-width="0" opacity="1" filter="none" class="highcharts-point" tabindex="-1" role="img" aria-label="2020, 2,404. Other." style="outline: none; stroke: rgb(255, 255, 255); stroke-width: 5;"></path><path fill="#45423f" d="M 199 197 L 237 197 A 0 0 0 0 1 237 197 L 237 208 A 0 0 0 0 1 237 208 L 199 208 A 0 0 0 0 1 199 208 L 199 197 A 0 0 0 0 1 199 197 Z" stroke="#ffffff" stroke-width="0" opacity="1" filter="none" class="highcharts-point" tabindex="-1" role="img" aria-label="2021, 1,954. Other." style="outline: none; stroke: rgb(255, 255, 255); stroke-width: 5;"></path><path fill="#45423f" d="M 261 211 L 299 211 A 0 0 0 0 1 299 211 L 299 221 A 0 0 0 0 1 299 221 L 261 221 A 0 0 0 0 1 261 221 L 261 211 A 0 0 0 0 1 261 211 Z" stroke="#ffffff" stroke-width="0" opacity="1" filter="none" class="highcharts-point" tabindex="-1" role="img" aria-label="2022, 1,783. Other." style="outline: none; stroke: rgb(255, 255, 255); stroke-width: 5;"></path><path fill="#45423f" d="M 324 205 L 361 205 A 0 0 0 0 1 361 205 L 361 218 A 0 0 0 0 1 361 218 L 324 218 A 0 0 0 0 1 324 218 L 324 205 A 0 0 0 0 1 324 205 Z" stroke="#ffffff" stroke-width="0" opacity="1" filter="none" class="highcharts-point" tabindex="-1" role="img" aria-label="2023, 2,317. Other." style="outline: none; stroke: rgb(255, 255, 255); stroke-width: 5;"></path><path fill="#45423f" d="M 386 205 L 423 205 A 0 0 0 0 1 423 205 L 423 219 A 0 0 0 0 1 423 219 L 386 219 A 0 0 0 0 1 386 219 L 386 205 A 0 0 0 0 1 386 205 Z" stroke="#ffffff" stroke-width="0" opacity="1" filter="none" class="highcharts-point" tabindex="-1" role="img" aria-label="2024, 2,508. Other." style="outline: none; stroke: rgb(255, 255, 255); stroke-width: 5;"></path><path fill="#45423f" d="M 448 183 L 486 183 A 0 0 0 0 1 486 183 L 486 198 A 0 0 0 0 1 486 198 L 448 198 A 0 0 0 0 1 448 198 L 448 183 A 0 0 0 0 1 448 183 Z" stroke="#ffffff" stroke-width="0" opacity="1" filter="none" class="highcharts-point" tabindex="-1" role="img" aria-label="2025, 2,708. Other." style="outline: none; stroke: rgb(255, 255, 255); stroke-width: 5;"></path></g><g class="highcharts-markers highcharts-series-2 highcharts-column-series" data-z-index="0.1" opacity="1" transform="translate(72,30) scale(1 1)" clip-path="none" aria-hidden="true"></g><g class="highcharts-series highcharts-series-3 highcharts-column-series highcharts-tracker" data-z-index="0.1" opacity="1" transform="translate(72,30) scale(1 1)" clip-path="url(#highcharts-hfcvpex-184-)" style="cursor: default; outline: none;" aria-hidden="false" role="region" tabindex="-1" aria-label="White, bar series 4 of 4 with 8 bars."><path fill="#18998d" d="M 12 168 L 50 168 A 0 0 0 0 1 50 168 L 50 265 A 0 0 0 0 1 50 265 L 12 265 A 0 0 0 0 1 12 265 L 12 168 A 0 0 0 0 1 12 168 Z" stroke="#ffffff" stroke-width="0" opacity="1" filter="none" class="highcharts-point" tabindex="-1" role="img" aria-label="2018, 16,938. White." style="outline: none; stroke: rgb(255, 255, 255); stroke-width: 5;"></path><path fill="#18998d" d="M 75 172 L 112 172 A 0 0 0 0 1 112 172 L 112 265 A 0 0 0 0 1 112 265 L 75 265 A 0 0 0 0 1 75 265 L 75 172 A 0 0 0 0 1 75 172 Z" stroke="#ffffff" stroke-width="0" opacity="1" filter="none" class="highcharts-point" tabindex="-1" role="img" aria-label="2019, 16,261. White." style="outline: none; stroke: rgb(255, 255, 255); stroke-width: 5;"></path><path fill="#18998d" d="M 137 196 L 174 196 A 0 0 0 0 1 174 196 L 174 265 A 0 0 0 0 1 174 265 L 137 265 A 0 0 0 0 1 137 265 L 137 196 A 0 0 0 0 1 137 196 Z" stroke="#ffffff" stroke-width="0" opacity="1" filter="none" class="highcharts-point" tabindex="-1" role="img" aria-label="2020, 12,000. White." style="outline: none; stroke: rgb(255, 255, 255); stroke-width: 5;"></path><path fill="#18998d" d="M 199 208 L 237 208 A 0 0 0 0 1 237 208 L 237 265 A 0 0 0 0 1 237 265 L 199 265 A 0 0 0 0 1 199 265 L 199 208 A 0 0 0 0 1 199 208 Z" stroke="#ffffff" stroke-width="0" opacity="1" filter="none" class="highcharts-point" tabindex="-1" role="img" aria-label="2021, 9,961. White." style="outline: none; stroke: rgb(255, 255, 255); stroke-width: 5;"></path><path fill="#18998d" d="M 261 221 L 299 221 A 0 0 0 0 1 299 221 L 299 265 A 0 0 0 0 1 299 265 L 261 265 A 0 0 0 0 1 261 265 L 261 221 A 0 0 0 0 1 261 221 Z" stroke="#ffffff" stroke-width="0" opacity="1" filter="none" class="highcharts-point" tabindex="-1" role="img" aria-label="2022, 7,703. White." style="outline: none; stroke: rgb(255, 255, 255); stroke-width: 5;"></path><path fill="#18998d" d="M 324 218 L 361 218 A 0 0 0 0 1 361 218 L 361 265 A 0 0 0 0 1 361 265 L 324 265 A 0 0 0 0 1 324 265 L 324 218 A 0 0 0 0 1 324 218 Z" stroke="#ffffff" stroke-width="0" opacity="1" filter="none" class="highcharts-point" tabindex="-1" role="img" aria-label="2023, 8,171. White." style="outline: none; stroke: rgb(255, 255, 255); stroke-width: 5;"></path><path fill="#18998d" d="M 386 219 L 423 219 A 0 0 0 0 1 423 219 L 423 265 A 0 0 0 0 1 423 265 L 386 265 A 0 0 0 0 1 386 265 L 386 219 A 0 0 0 0 1 386 219 Z" stroke="#ffffff" stroke-width="0" opacity="1" filter="none" class="highcharts-point" tabindex="-1" role="img" aria-label="2024, 7,931. White." style="outline: none; stroke: rgb(255, 255, 255); stroke-width: 5;"></path><path fill="#18998d" d="M 448 198 L 486 198 A 0 0 0 0 1 486 198 L 486 265 A 0 0 0 0 1 486 265 L 448 265 A 0 0 0 0 1 448 265 L 448 198 A 0 0 0 0 1 448 198 Z" stroke="#ffffff" stroke-width="0" opacity="1" filter="none" class="highcharts-point" tabindex="-1" role="img" aria-label="2025, 11,658. White." style="outline: none; stroke: rgb(255, 255, 255); stroke-width: 5;"></path></g><g class="highcharts-markers highcharts-series-3 highcharts-column-series" data-z-index="0.1" opacity="1" transform="translate(72,30) scale(1 1)" clip-path="none" aria-hidden="true"></g></g><g class="highcharts-exporting-group" data-z-index="3" aria-hidden="true"><g class="highcharts-no-tooltip highcharts-button highcharts-contextbutton highcharts-button-normal" stroke-linecap="round" style="cursor: pointer;" transform="translate(542,30)"><title>Chart context menu</title><rect fill="#ffffff" class="highcharts-button-box" x="0.5" y="0.5" width="28" height="28" rx="2" ry="2" stroke="none" stroke-width="1"></rect><path fill="#666666" d="M 8 9.5 L 22 9.5 M 8 14.5 L 22 14.5 M 8 19.5 L 22 19.5" class="highcharts-button-symbol" data-z-index="1" stroke="#666666" stroke-width="3" style="stroke: rgb(255, 255, 255); stroke-width: 5;"></path><text x="0" data-z-index="1" y="18.5" style="color: rgb(51, 51, 51); font-size: 0.8em; font-weight: normal; fill: rgb(51, 51, 51);"></text></g></g><text x="10" text-anchor="start" class="highcharts-title" data-z-index="4" style="font-size: 1rem; color: rgb(51, 51, 51); font-weight: bold; fill: rgb(51, 51, 51);" y="42" aria-hidden="true"></text><text x="10" text-anchor="start" class="highcharts-subtitle" data-z-index="4" style="color: rgb(102, 102, 102); font-size: 0.875rem; fill: rgb(102, 102, 102);" y="46" aria-hidden="true"></text><text x="10" text-anchor="start" class="highcharts-caption" data-z-index="4" style="color: rgb(102, 102, 102); font-size: 0.8em; fill: rgb(102, 102, 102);" y="397" aria-hidden="true"></text><g class="highcharts-axis-labels highcharts-xaxis-labels" data-z-index="7" aria-hidden="true"><text x="103.125" text-anchor="middle" transform="translate(0,0)" style="color: rgb(51, 51, 51); cursor: default; font-size: 0.8em; fill: rgb(51, 51, 51);" y="322" opacity="1">2018</text><text x="227.625" text-anchor="middle" transform="translate(0,0)" style="color: rgb(51, 51, 51); cursor: default; font-size: 0.8em; fill: rgb(51, 51, 51);" y="322" opacity="1">2020</text><text x="352.125" text-anchor="middle" transform="translate(0,0)" style="color: rgb(51, 51, 51); cursor: default; font-size: 0.8em; fill: rgb(51, 51, 51);" y="322" opacity="1">2022</text><text x="476.625" text-anchor="middle" transform="translate(0,0)" style="color: rgb(51, 51, 51); cursor: default; font-size: 0.8em; fill: rgb(51, 51, 51);" y="322" opacity="1">2024</text><text x="165.375" text-anchor="middle" transform="translate(0,0)" style="color: rgb(51, 51, 51); cursor: default; font-size: 0.8em; fill: rgb(51, 51, 51);" y="322" opacity="1">2019</text><text x="289.875" text-anchor="middle" transform="translate(0,0)" style="color: rgb(51, 51, 51); cursor: default; font-size: 0.8em; fill: rgb(51, 51, 51);" y="322" opacity="1">2021</text><text x="414.375" text-anchor="middle" transform="translate(0,0)" style="color: rgb(51, 51, 51); cursor: default; font-size: 0.8em; fill: rgb(51, 51, 51);" y="322" opacity="1">2023</text><text x="538.875" text-anchor="middle" transform="translate(0,0)" style="color: rgb(51, 51, 51); cursor: default; font-size: 0.8em; fill: rgb(51, 51, 51);" y="322" opacity="1">2025</text>
+                    </g>
+                    <g class="highcharts-axis-labels highcharts-yaxis-labels" data-z-index="7" aria-hidden="true">
+                        <text x="57" text-anchor="end" transform="translate(0,0)" style="color: rgb(51, 51, 51); cursor: default; font-size: 0.8em; fill: rgb(51, 51, 51);" y="300" opacity="1">0</text>
+                        <text x="57" text-anchor="end" transform="translate(0,0)" style="color: rgb(51, 51, 51); cursor: default; font-size: 0.8em; fill: rgb(51, 51, 51);" y="185" opacity="1">20K</text>
+                        <text x="57" text-anchor="end" transform="translate(0,0)" style="color: rgb(51, 51, 51); cursor: default; font-size: 0.8em; fill: rgb(51, 51, 51);" y="70" opacity="1">40K</text>
+                        <text x="57" text-anchor="end" transform="translate(0,0)" style="color: rgb(51, 51, 51); cursor: default; font-size: 0.8em; fill: rgb(51, 51, 51);" y="243" opacity="1">10K</text>
+                        <text x="57" text-anchor="end" transform="translate(0,0)" style="color: rgb(51, 51, 51); cursor: default; font-size: 0.8em; fill: rgb(51, 51, 51);" y="128" opacity="1">30K</text>
+                    </g>
+                    <g class="highcharts-legend highcharts-no-tooltip" data-z-index="7" transform="translate(10,355)" aria-hidden="true">
+                        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" stroke="#999999" stroke-width="0" filter="none" x="0" y="0" width="420" height="30"></rect>
+                        <g data-z-index="1"><g>
+                            <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0" data-z-index="1" transform="translate(8,3)">
+                                <text x="21" text-anchor="start" data-z-index="2" style="color: rgb(51, 51, 51); cursor: pointer; font-size: 0.8em; text-decoration: none; fill: rgb(51, 51, 51);" y="17">Black or African American</text>
+                                <rect x="2" y="6" rx="6" ry="6" width="12" height="12" fill="#e67530" class="highcharts-point" data-z-index="3"></rect>
+                    </g>
+                    <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1" data-z-index="1" transform="translate(194.84375,3)">
+                        <text x="80" y="17" text-anchor="start" data-z-index="2" style="color: rgb(51, 51, 51); cursor: pointer; font-size: 0.8em; text-decoration: none; fill: rgb(51, 51, 51);">Hispanic</text>
+                        <rect x="60" y="6" rx="6" ry="6" width="12" height="12" fill="#38619e" class="highcharts-point" data-z-index="3"></rect>
+                    </g>
+                    <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2" data-z-index="1" transform="translate(284.9375,3)">
+                        <text x="95" y="17" text-anchor="start" data-z-index="2" style="color: rgb(51, 51, 51); cursor: pointer; font-size: 0.8em; text-decoration: none; fill: rgb(51, 51, 51);">Other</text>
+                        <rect x="75" y="6" rx="6" ry="6" width="12" height="12" fill="#45423f" class="highcharts-point" data-z-index="3"></rect>
+                    </g>
+                    <g class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3" data-z-index="1" transform="translate(358.1249771118164,3)">
+                        <text x="110" y="17" text-anchor="start" data-z-index="2" style="color: rgb(51, 51, 51); cursor: pointer; font-size: 0.8em; text-decoration: none; fill: rgb(51, 51, 51);">White</text>
+                        <rect x="90" y="6" rx="6" ry="6" width="12" height="12" fill="#18998d" class="highcharts-point" data-z-index="3"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+            </svg>
+
                 <title id="graphic-title">Replace with a concise title</title>
-                <desc id="graphic-desc">Replace with an equivalent description of the meaningful comparison or pattern.</desc>
+                <desc id="graphic-desc">*To create the simplified race/ethnicity grouping utilized in the charts, individuals with an ethnicity entered as 'Hispanic' are included in the 'Hispanic' category, regardless of the race entered. Individuals with ‘Black or African American’ entered even if a blend such as Black/ White or American Indian/Black are included in the 'Black or African American' category. Individuals listed as Asian, Pacific Islander, Alaskan Native, American Indian, Other Blend, Etc., or with an unknown race, are grouped in the 'Other' category. Individuals with their race entered as White (that do not have their ethnicity listed as Hispanic) are grouped in the 'White' category. Full race/ethnicity information is available in detail on the <a href="https://phoenixopendata.com/organization/police-department" target="_blank">(Open Data Portal)</a>.</desc>
                 <rect class="graphic-surface" width="800" height="400"/>
                 <circle class="graphic-primary" cx="250" cy="200" r="120"/>
                 <circle class="graphic-accent" cx="560" cy="160" r="150"/>
