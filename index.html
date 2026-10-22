@@ -1,8 +1,10 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Data Story</title><link rel="stylesheet" href="styles.css">
-</head>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Data Story</title><link rel="stylesheet" href="styles.css">
+    </head>
 <body>
     <header class="story-header">
         <p class="eyebrow">Data Story - GIT337 Module 3</p>
@@ -12,27 +14,31 @@
     <main>
         <section id="story-frame">
             <h2>D1 · Story Frame</h2>
-            <p>Understanding how systemic racism has affected American society in terms of crime and police brutality has been a topic of interest for me for quite some time. It is a set of policies and institutional structures that historically amd currently affect housing, criminal justice, education, healthcare, and many other categories. While critics debate whether this insitutional bias even exists or if these trends are because of socioeconomic class/cultural factors, this page will simply compile data from multiple government sources. The intent of this webpage is to consolidate and bring together multiple data sources to crate a clearer image in regards to Arizona crime vs. demographic statistics.</p>
+            <p>Understanding how systemic racism has affected American society in terms of crime and police brutality has been a topic of interest for me for quite some time. It is a set of policies and institutional structures that historically and currently affect housing, criminal justice, education, healthcare, and many other categories. While critics debate whether this institutional bias even exists or if these trends are because of socioeconomic class/cultural factors, this page will simply compile data from multiple government sources. The intent of this webpage is to consolidate and bring together multiple data sources to create a clearer image in regards to Arizona crime vs. demographic statistics.</p>
             <footer>(Since the Arizona data scope can become extremely large and complicated, I've decided to focus on primarily the Phoenix area with a variety of data pulled from 2018 to 2025.)</footer>
         </section>
         <section id="figures">
             <h2>D2 · Editorial Figures</h2>
             <div class="story-grid">
                 <figure>
-                    <img src="map-of-ethnicity%.JPG" alt="Map displaying Black/African American demographic distribution in the Phoenix area" width="800" height="450">
-                    <figcaption>Figure 1. Map of Black/African American demographic distribution in Phoenix between 2020-2024. Sourced from <a href="https://geo.azmag.gov/maps/azdemographics/" target="_blank">Interactive Maps</a> from the Maricopa Association of Governments.</figcaption>
+                    <img src="map-of-ethnicity.JPG" alt="Map of Phoenix census block groups shaded by percentage of Black residents. 6 categories where the keys transition from gray, pale yellow, shades of green/teal, and shades of blue/dark blue. Higher concentrations appear in the central and southwest parts of the city." width="800" height="450">
+                    <figcaption>Figure 1. Map of Black/African American demographic distribution in Phoenix between 2020-2024. Sourced from <a href="https://geo.azmag.gov/maps/azdemographics/" rel="noopener" aria-label="opens in a new tab" target="_blank">Interactive Maps</a> from the Maricopa Association of Governments.</figcaption>
                 </figure>
                 <figure class="figure-wide">
-                    <div class="scroll-x"><img src="race-and-ethnicity-by-region.JPG" alt="Bar chart comparing racial and ethnic composition of Phoenix, Phoenix MSA, and the United States." width="2214" height="792"></div>
-                    <figcaption>Figure 2. * ("Native Hawaiian and Pacific Islander" is included in "Multiple/Other"). Bar chart showing ethnicity demographic percentage distribution between Phoenix, Phoenix MSA, and the United States. Sourced from <a href="https://geo.azmag.gov/maps/azdemographics/" target="_blank">MAG Community Data Explorer</a> from the Maricopa Association of Governments.</figcaption>
+                    <div class="scroll-x" role="region" tabindex="0">
+                        <img src="race-and-ethnicity-by-region.JPG" alt="Horizontal bar chart comparing racial/ethnic composition of Phoenix, Phoenix MSA, and United States. Phoenix is 41% White, 43% Hispanic, 7% Black, 4% Asian compared to the United States 59% White, 19% Hispanic, 12% Black, and 6% Asian." width="2214" height="792">
+                    </div>
+                    <figcaption>
+                        Figure 2. * ("Native Hawaiian and Pacific Islander" is included in "Multiple/Other"). Bar chart showing ethnicity demographic percentage distribution between Phoenix, Phoenix MSA, and the United States. Sourced from <a href="https://geo.azmag.gov/maps/azdemographics/" rel="noopener" aria-label="opens in a new tab" target="_blank">MAG Community Data Explorer</a> from the Maricopa Association of Governments.
+                    </figcaption>
                 </figure>
             </div>
         </section>
         <section id="data-table">
             <h2>D3 · Accessible Data Table</h2>
-            <div class="table-region" role="region" aria-label="Replace with a specific table label" tabindex="0">
+            <div class="table-region" role="region" aria-label="table-caption" tabindex="0">
                 <table>
-                    <caption>Crime and demographic population statistics by year (for the Phoenix, AZ area)</caption>
+                    <caption id="table-caption">Crime and demographic population statistics by year (for the Phoenix, AZ area)</caption>
                     <thead>
                         <tr>
                             <th id="first-child" scope="col">Year</th>
@@ -111,21 +117,13 @@
                     </tbody>
                 </table>
             </div>
-            <p class="source-note">Sourced from City of Phoenix Bias Crimes Statistics PDFs <a href="https://www.phoenix.gov/administration/departments/police/crime-stats-data/crime-stats-maps.html" target="_blank">(phoenix.gov)</a></p>
+            <p class="source-note">Sourced from City of Phoenix Bias Crimes Statistics PDFs <a href="https://www.phoenix.gov/administration/departments/police/crime-stats-data/crime-stats-maps.html" rel="noopener" aria-label="opens in a new tab" target="_blank">(phoenix.gov)</a></p>
         </section>
         <section id="vector-story">
             <h2>D4 · Race/Ethnicity* of Individuals Involved in Police Incidents</h2>
-            <svg version="1.1" class="story-graphic"  xmlns="http://www.w3.org/2000/svg" viewBox="-30 0 800 400" aria-hidden="false">
-                <desc aria-hidden="true">Created with Highcharts 11.4.6</desc>
-                <defs aria-hidden="true">
-                    <filter id="highcharts-drop-shadow-5">
-                        <feDropShadow dx="1" dy="1" flood-color="#000000" flood-opacity="0.75" stdDeviation="2.5"></feDropShadow>
-                    </filter>
-                    <clipPath id="highcharts-hfcvpex-184-">
-                        <rect x="0" y="0" width="498" height="265" fill="none"></rect>
-                    </clipPath>
-                </defs>
-                <rect fill="#ffffff" class="highcharts-background" filter="none" x="0" y="0" width="580" height="400" rx="4" ry="4" aria-hidden="true"></rect>
+            <svg class="story-graphic" aria-labelledby="graphic-title graphic-desc" xmlns="http://www.w3.org/2000/svg" viewBox="-30 0 800 400">
+                <title id="graphic-title">Police incidents by race/ethnicity, 2018–2025</title>
+                <desc id="graphic-desc">Column chart of yearly incident counts for Black or African American, Hispanic, Other, and White individuals. Percentage versions available in table prior.</desc>
                 <rect fill="none" class="highcharts-plot-background" x="72" y="30" width="498" height="265" filter="none" aria-hidden="true"></rect>
                 <g class="highcharts-pane-group" data-z-index="0" aria-hidden="true"></g>
                 <g class="highcharts-grid highcharts-xaxis-grid" data-z-index="1" aria-hidden="true">
@@ -192,23 +190,16 @@
                         <text x="110" y="17" text-anchor="start" data-z-index="2" style="color: rgb(51, 51, 51); cursor: pointer; font-size: 0.8em; text-decoration: none; fill: rgb(51, 51, 51);">White</text>
                         <rect x="90" y="6" rx="6" ry="6" width="12" height="12" fill="#18998d" class="highcharts-point" data-z-index="3"></rect>
                     </g>
+                    </g>
                 </g>
-            </g>
-        </g>
+                </g>
             </svg>
-
-                <title id="graphic-title">Replace with a concise title</title>
-                <desc id="graphic-desc">*To create the simplified race/ethnicity grouping utilized in the charts, individuals with an ethnicity entered as 'Hispanic' are included in the 'Hispanic' category, regardless of the race entered. Individuals with ‘Black or African American’ entered even if a blend such as Black/ White or American Indian/Black are included in the 'Black or African American' category. Individuals listed as Asian, Pacific Islander, Alaskan Native, American Indian, Other Blend, Etc., or with an unknown race, are grouped in the 'Other' category. Individuals with their race entered as White (that do not have their ethnicity listed as Hispanic) are grouped in the 'White' category. Full race/ethnicity information is available in detail on the <a href="https://phoenixopendata.com/organization/police-department" target="_blank">(Open Data Portal)</a>.</desc>
-                <rect class="graphic-surface" width="800" height="400"/>
-                <circle class="graphic-primary" cx="250" cy="200" r="120"/>
-                <circle class="graphic-accent" cx="560" cy="160" r="150"/>
-                <path class="graphic-line" d="M80 350H720"/>
-            </svg>
+            <p class="source-note">*To create the simplified race/ethnicity grouping utilized in the charts, individuals with an ethnicity entered as 'Hispanic' are included in the 'Hispanic' category, regardless of the race entered. Individuals with ‘Black or African American’ entered even if a blend such as Black/ White or American Indian/Black are included in the 'Black or African American' category. Individuals listed as Asian, Pacific Islander, Alaskan Native, American Indian, Other Blend, Etc., or with an unknown race, are grouped in the 'Other' category. Individuals with their race entered as White (that do not have their ethnicity listed as Hispanic) are grouped in the 'White' category. Full race/ethnicity information is available in detail on the <a href="https://phoenixopendata.com/organization/police-department" rel="noopener" aria-label="opens in a new tab" target="_blank">(Open Data Portal)</a>.</p>
         </section>
         <section id="documentation">
             <h2>D5-D6 · System and Documentation</h2>
             <p>Extend Module 1 patterns, then link your sources, asset credits/licenses, test record, transformation notes, and AI disclosure.</p>
         </section>
-        </main>
-    </body>
-    </html>
+    </main>
+</body>
+</html>

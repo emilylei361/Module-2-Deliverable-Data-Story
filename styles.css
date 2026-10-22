@@ -151,7 +151,7 @@ caption,desc,footer,figcaption{
 }
 th,td{
     padding:.75rem;
-    border:1px solid var(--color-border);
+    border:1px solid var(--color-action);
     text-align:left;
 }
 td{
@@ -160,11 +160,14 @@ td{
 th:first-child{
   width: 65px; /* Can be px, rem, etc. */
 }
+
 thead{
-    background:#f1f1f1;
+    background:var(--color-accent);
 }
-.table-region:focus-visible{
-    outline:.2rem solid var(--color-accent);
+a:focus-visible,
+.table-region:focus-visible,
+.scroll-x:focus-visible{
+    outline:.2rem solid var(--color-action);
     outline-offset:.2rem;
 }
 .graphic-surface{
